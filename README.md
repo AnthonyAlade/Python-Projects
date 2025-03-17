@@ -1,11 +1,12 @@
 # Python-Projects
 
-# Web Scraping Projects  
+#  Projects Overview
 
-This repository contains two Python projects focused on web scraping:  
+This repository contains three Python projects focused on web scraping and data cleaning:  
 
 1. Book Scraping 
-2. Wikipedia Table Scraping 
+2. Wikipedia Table Scraping
+3. Data cleaning
 
 ## Project 1: Book Scraping  
 
@@ -53,3 +54,32 @@ This project was developed using anaconda and runs in jupyter notebook. The requ
 ### Output File
 
 C:\Users\HP\Documents\New folder\companies.csv
+
+### License
+This project is for educational  purposes onlt. Please check the website terms of service before scraping
+
+## Project 3: Data Cleaning project
+
+### Description 
+
+This repository contains a Python project focused on data cleaning techniques. The goal is to efficiently preprocess raw data to make it suitable for analysis. The datasets contains customer information data with inconsistencies such as
+
+- Duplicate entries
+- special characters in the names
+- incorrect  format for phone number and address
+
+  ### Features  
+- Handling missing values  
+- Removing duplicates  
+- Standizing names by removing special characters
+- Formatting phone numbers to consistent format 
+- Cleaning Addresses by spliting it
+
+
+### Technologies Used
+This project was developed using anaconda and runs in jupyter notebook. The required libraries are:
+- Python
+- Pandas
+
+   
+
